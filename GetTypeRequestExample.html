@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>AJAX Examples </title>
+<script src='js/DaJSRock.js'></script>
+<script>
+
+function populateDesignations()
+{
+$$$.ajax({
+"url":"servletOne",
+"methodType":"POST",
+"success":function(responseData){
+var designations=JSON.parse(responseData);
+var designationComboBox=document.getElementById("designationCode");
+var element=null;
+for(var i=0;i<designations.length;i++)
+{
+element=document.createElement("option");
+element.value=designations[i].value;
+element.text=designations[i].title;
+
+designationComboBox.appendChild(element);
+}
+
+},
+"failure": function(){
+alert("Some problem");
+}
+});
+}
+
+window.addEventListener('load',populateDesignations);
+</script>
+</head>
+<body>
+<h1>Get type request Example </h1>
+<select id='designationCode'>
+</select>
+<br><br>
+<a href='index.html'>Home</a>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>AJAX Examples </title>
+<script src='js/DaJSRock.js'></script>
+<script>
+function getDesignation()
+{
+let titleSpan=$$$("title");
+titleSpan.html("");
+let code=$$$("code").value();
+$$$.ajax({
+"url": "servletTwo?code="+encodeURI(code),
+"methodType": "GET",
+"success": function(responseData){
+//alert(responseData);
+if(responseData=="INVALID")
+{
+alert('Invalid designation Code');
+}
+else
+{
+var splits=responseData.split(",");
+titleSpan.html(splits[1]);
+}
+},
+"failure":function(){
+alert("Some problem");
+}
+});
+}
+
+</script>
+</head>
+<body>
+<h1>Get type request  with data Example </h1>
+Enter Code <input type='text' id='code' >
+<button type='button' onclick='getDesignation()'> Get Designation</button><br><br>
+Title <span id='title'></span>
+<br>
+<a href='index.html'>Home</a>
+</body>
+</html>
