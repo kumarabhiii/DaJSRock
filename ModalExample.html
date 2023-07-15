@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<title>AJAX Examples </title>
+<link rel="stylesheet" href="css/DaJSRock.css">
+<script src='js/DaJSRock.js'></script>
+<script>
+//user written functions
+
+function abBeforeOpening()
+{
+alert('Modal with ab is about to be opened');
+return true;
+}
+
+function abOpened()
+{
+alert('Modal with ab opened');
+}
+
+function abBeforeClosing()
+{
+alert('Modal with ab is about to be closed');
+return true;
+}
+function abClosed()
+{
+alert('Modal with ab closed');
+}
+
+function pqOpened()
+{
+alert('Modal with pq opened');
+}
+
+function pqClosed()
+{
+alert('Modal with pq closed');
+}
+
+function createModal1()
+{
+$$$.modals.show("ab");
+}
+
+
+function xyz()
+{
+var xx=document.getElementById('myTextBox');
+alert(xx);
+}
+</script>
+</head>
+<body>
+<div accordian="true">
+<h3>Heading 1</h1>
+<div>
+1 Whatever whatever
+2 Whatever whatever
+3 Whatever whatever
+4 Whatever whatever
+5 Whatever whatever
+6 Whatever whatever
+7 Whatever whatever
+</div>
+<h3>Heading 2</h1>
+<div>
+11 Whatever whatever
+22 Whatever whatever
+33 Whatever whatever
+44 Whatever whatever
+55 Whatever whatever
+66 Whatever whatever
+77 Whatever whatever
+</div>
+
+<h3>Heading 3</h1>
+<div>
+111 Whatever whatever
+222 Whatever whatever
+333 Whatever whatever
+444 Whatever whatever
+555 Whatever whatever
+666 Whatever whatever
+777 Whatever whatever
+</div>
+</div>
+
+<div id='gogo' accordian="true">
+<h3>Heading 1000</h1>
+<div>
+1 Whatever whatever
+2 Whatever whatever
+3 Whatever whatever
+4 Whatever whatever
+5 Whatever whatever
+6 Whatever whatever
+7 Whatever whatever
+</div>
+<h3>Heading 2000</h1>
+<div>
+11 Whatever whatever
+22 Whatever whatever
+33 Whatever whatever
+44 Whatever whatever
+55 Whatever whatever
+66 Whatever whatever
+77 Whatever whatever
+</div>
+
+<h3>Heading 3000</h1>
+<div>
+111 Whatever whatever
+222 Whatever whatever
+333 Whatever whatever
+444 Whatever whatever
+555 Whatever whatever
+666 Whatever whatever
+777 Whatever whatever
+</div>
+</div>
+
+
+
+
+<button onclick='createModal1()'>Show First Modal</button>
+<div id='ab'  style='display:none' forModal='true' header="some heading"
+footer="some footer" size="600x300" closeButton="true"
+maskColor="#6C66CF" modalBackgroundColor="#e4f2f2" 
+beforeOpening="abBeforeOpening()"
+afterOpening="abOpened()"
+beforeClosing="abBeforeClosing()"
+afterClosing="abClosed()"
+>
+God is great<br>
+God is great<br>
+God is great<br>
+<input type='text' id='myTextBox' value='Great'>
+God is great<br>
+God is great<br>
+God is great<br>
+God is great<br>
+God is great<br>
+God is great<br>
+God is great<br>
+God is great<br>
+God is great<br>
+Last Line
+
+</div>
+<button onclick='xyz()'>Cool button</button>
+
+
+
+
+</body>
+</html>
