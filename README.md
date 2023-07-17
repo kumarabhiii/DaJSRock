@@ -74,7 +74,8 @@ alert("Some problem");
 
 ### Output : 
 
-![Screenshot 2023-07-16 043651](https://github.com/adiyogy/My-J2EE-Webapps-dir/assets/54892830/c87de276-c7dc-4237-94de-48027d5a8749)
+![Screenshot 2023-07-16 043651](https://github.com/kumarabhiii/DaJSRock/assets/121662707/828f50af-b4b2-4cfd-8605-8a5c30121f37)
+
 
 
 ### Get Type Request Example : 
@@ -384,6 +385,7 @@ Last Line
 
 ### Output
 
-![Screenshot 2023-07-16 044445](https://github.com/adiyogy/My-J2EE-Webapps-dir/assets/54892830/c396566a-68ce-4892-b32c-53afa8771e56)
+![Screenshot 2023-07-16 044445](https://github.com/kumarabhiii/DaJSRock/assets/121662707/9f5c081a-388e-4695-8c8b-6da384eae457)
+
 
 
