@@ -1,7 +1,8 @@
-# CustomJavaScriptFramework-TMJROCK
+# DaJSRock: JavaScript Framework
 
-Created a JavaScript framework, that reliefs programmers from client end programming, AJAX programming and form validation.This framework provides many useful UI Components like
-Accordian, Modal, fillComboBox etc.
+DaJSRock is a JavaScript Framework implemented in pure javascript.
+This framework similar to jQuery for creating customized components for web application development.
+Features: Accordion, Grid with pagination, Ajax calls, Modal and Custom attribute etc. 
 
 ## Features:
 1) User can create modal in very easy way.
@@ -9,19 +10,20 @@ Accordian, Modal, fillComboBox etc.
 3) User can fill combobox by writing a very little code.
 4) User able to do form validation by writing a some lines code.
 5) Handle ajax GET and POST request.
+6) User can create Grid (table) With pagination by just defining.
 
 ## Steps to use this framework:-
 1) Extract the zip File.
-2) include this JS and CSS file:
+2) Then add this JS and CSS files in your project
+3) include this below line in your code to integrate JS and CSS file
 ````
-<script src='js/framework.js'></script>
-<link rel="stylesheet" href="css/framework_style.css">
+<script src='js/DaJSRock.js'></script>
+<link rel="stylesheet" href="css/DaJSRock.css">
 ````
-3) Copy/cut web.xml to tomcat9/Webapps/"Project Name"/WEB-INF/.
-4) Then start the tomcat server and go to any browser and type localhost:8080/ProjectName/resourceFileName<br>
-Example : localhost:8080/TMJRock/ModalExample.html
+4) Use any component (see below demos to learn).
 
 
+# Demo here
 ###  POST type request Example :
 
 ````
@@ -72,7 +74,8 @@ alert("Some problem");
 
 ### Output : 
 
-![Screenshot (627)](https://user-images.githubusercontent.com/69362478/124371134-7e7c0d00-dc9c-11eb-82d5-1f7c7558c4dd.png)
+![Screenshot 2023-07-16 043651](https://github.com/adiyogy/My-J2EE-Webapps-dir/assets/54892830/c87de276-c7dc-4237-94de-48027d5a8749)
+
 
 ### Get Type Request Example : 
 
@@ -192,10 +195,9 @@ Female <input type='radio' name='gender' id='fe' value='F'>&nbsp;&nbsp;&nbsp;
 
 ![Screenshot (623)](https://user-images.githubusercontent.com/69362478/124371238-69ec4480-dc9d-11eb-98fc-80e7d1b335dc.png)
 
+After Clicking on Submit button 
+
 ![Screenshot (633)](https://user-images.githubusercontent.com/69362478/124382841-0850c800-dce7-11eb-8a23-1d243cdb91f4.png)
-
-
-
 
 ### Fill combobox:
 ````
@@ -316,7 +318,7 @@ window.addEventListener('load',populateDesignations);
  
 ![Screenshot (629)](https://user-images.githubusercontent.com/69362478/124382725-911b3400-dce6-11eb-8c9a-0e85291d5dff.png)
  
- ### Creating modal:
+ ### Creating modal Window:
 code to write in between <script> tag
 ````
 <script>
@@ -375,4 +377,13 @@ Last Line
  ### Output
  
  ![Screenshot (628)](https://user-images.githubusercontent.com/69362478/124383110-56b29680-dce8-11eb-9b75-115e5e1d21da.png)
+
+
+### Grid (Table) With pagination
+
+
+### Output
+
+![Screenshot 2023-07-16 044445](https://github.com/adiyogy/My-J2EE-Webapps-dir/assets/54892830/c396566a-68ce-4892-b32c-53afa8771e56)
+
 
