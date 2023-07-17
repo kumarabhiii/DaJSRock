@@ -115,7 +115,8 @@ Title <span id='title'></span>
 ````
 ### Output : 
 
-![Screenshot (626)](https://user-images.githubusercontent.com/69362478/124371218-27c30300-dc9d-11eb-81cf-e0f9896380d0.png)
+![a1](https://github.com/kumarabhiii/DaJSRock/assets/121662707/9228a2f1-82cb-4168-9595-ec91b63a7b29)
+
 
 ### Form validation:
 ````
@@ -194,11 +195,13 @@ Female <input type='radio' name='gender' id='fe' value='F'>&nbsp;&nbsp;&nbsp;
 ````
 ### Output : 
 
-![Screenshot (623)](https://user-images.githubusercontent.com/69362478/124371238-69ec4480-dc9d-11eb-98fc-80e7d1b335dc.png)
+![a2](https://github.com/kumarabhiii/DaJSRock/assets/121662707/e1bb09d1-8ca6-44d0-8df8-8d8978994195)
+
 
 After Clicking on Submit button 
 
-![Screenshot (633)](https://user-images.githubusercontent.com/69362478/124382841-0850c800-dce7-11eb-8a23-1d243cdb91f4.png)
+![a3](https://github.com/kumarabhiii/DaJSRock/assets/121662707/45b97920-79db-4745-bff7-062c41c1b3f4)
+
 
 ### Fill combobox:
 ````
@@ -237,7 +240,8 @@ window.addEventListener('load',populateDesignations);
 </body>
 ````
 
-![Screenshot (632)](https://user-images.githubusercontent.com/69362478/124382708-75179280-dce6-11eb-97c3-6c27938cdd78.png)
+![a4](https://github.com/kumarabhiii/DaJSRock/assets/121662707/36db1366-2113-4ab6-9948-99e65bb48830)
+
 
 
 
@@ -316,8 +320,10 @@ window.addEventListener('load',populateDesignations);
 </div>
 
  ````
+### Output
  
-![Screenshot (629)](https://user-images.githubusercontent.com/69362478/124382725-911b3400-dce6-11eb-8c9a-0e85291d5dff.png)
+![a5](https://github.com/kumarabhiii/DaJSRock/assets/121662707/799664bf-9abe-48a6-964f-b0657e17a3dc)
+
  
  ### Creating modal Window:
 code to write in between <script> tag
@@ -377,7 +383,8 @@ Last Line
 ````
  ### Output
  
- ![Screenshot (628)](https://user-images.githubusercontent.com/69362478/124383110-56b29680-dce8-11eb-9b75-115e5e1d21da.png)
+ ![a6](https://github.com/kumarabhiii/DaJSRock/assets/121662707/1f7beaf3-4886-4324-9a4a-f52028d5864a)
+
 
 
 ### Grid (Table) With pagination
