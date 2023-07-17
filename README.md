@@ -240,9 +240,9 @@ window.addEventListener('load',populateDesignations);
 </body>
 ````
 
+### Output 
+
 ![a4](https://github.com/kumarabhiii/DaJSRock/assets/121662707/36db1366-2113-4ab6-9948-99e65bb48830)
-
-
 
 
 ### Creating accordian panel:
@@ -388,7 +388,53 @@ Last Line
 
 
 ### Grid (Table) With pagination
+Code to write in between <head> 
 
+````
+<!-- user specific styling -->
+<style>
+.someStyle
+{
+width:900px;
+height: 600px;
+overflow: auto;
+border: 1px solid red;
+}
+</style>
+
+````
+code to write in between <body>
+
+````
+<body>
+
+<div class='someStyle'>
+<!-- its for table header -->
+<div class='tmjrock_tmgrid_header_division'>
+<table class='tmjrock_tmgrid_head'>
+<tr>
+<td>S.No.</td>
+<td>Roll NO.</td>
+<td>Name</td>
+<td>Mother</td>
+<td>Father</td>
+</tr>
+</table>
+</div>
+<!-- its for table data -->
+<div class='tmjrock_tmgrid_body_division'>
+<table class='tmjrock_tmgrid_body' id='dataTable'>
+</table>
+</div>
+<!-- its for table pagination if needed -->
+<div class='tmjrock_tmgrid_pagination_division'>
+<table class='tmjrock_tmgrid_pagination' id='dataTablePagination'>
+</table>
+</div>
+
+</div>
+</body>
+````
 
 ### Output
 
